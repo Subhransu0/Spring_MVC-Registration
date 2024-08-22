@@ -33,7 +33,7 @@ public class MyController {
 		userService.registerUser(user);
 		m.addAttribute("msg", "Register Successfully");
 
-		return "register";
+		return "redirect:/register";
 
 	}
 
